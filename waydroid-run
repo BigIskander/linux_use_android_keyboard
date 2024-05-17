@@ -1,0 +1,4 @@
+#!/bin/bash
+(weston --socket=waydroid_socket --width=600 --height=800; waydroid session stop) \
+& env WAYLAND_DISPLAY=waydroid_socket waydroid show-full-ui
+
