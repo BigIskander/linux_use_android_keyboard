@@ -37,8 +37,10 @@ fn main() {
     // Stream output.
     let lines = BufReader::new(stdout).lines();
     for line in lines {
-        let text = line.unwrap();
-        myregex(&text);
+        let text = line.ok();
+        if !text.is_none() {
+            myregex(&text.unwrap());
+        }
     }
 }
 
