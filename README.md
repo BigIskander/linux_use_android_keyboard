@@ -19,7 +19,7 @@ Programs were developed and tested in Linux with X11 desktop environment.
     ```
 2. Install Waydroid by instruction from the official website [Waydroid](https://waydro.id/).
 3. Copy files from `./shell` folder into `~/bin` folder.
-4. Copy file `linuxwritetext` into `~/bin` folder. This binary file can be found in releases page or you can get it by compiling source code from 'lunuxwritetext' folder. You may need to allow execute files as program in file properties.
+4. Copy file `linuxwritetext` into `~/bin` folder. This binary file can be found in releases page or you can get it by compiling source code from `linuxwritetext` folder. You may need to allow execute files as program in file properties.
 5. Launch Waydroid:
     ```
     waydroid-run
@@ -45,6 +45,8 @@ Programs were developed and tested in Linux with X11 desktop environment.
 5. Then inside Waydroid in `sendtextadb` write the text by using Android virtual keyboard and click `send text` button.
 
 Then, program itself initialize alt+Tab keypress (in order to switch to previous active window), type the text you typed and then initialize alt+Tab keypress again (in order to switch back to Waydroid window).
+
+**UPDATE**: [Instruction, how to input text from the virtual keyboard of physical device (mobile phone) working on Android (instead of Waydroid).](README_PHONE.md)
 
 ## Notes
 

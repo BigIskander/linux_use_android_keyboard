@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "xdotool type --delay 100 $'$1'" | bash
