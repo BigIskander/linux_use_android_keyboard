@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "(xdotool key --delay 100 alt+Tab type --delay 100 $'$1'); sleep 1s; xdotool key alt+Tab;" | bash
+echo "(xdotool key --delay 100 alt+Tab type --delay 300 $'$1'); sleep 1s; xdotool key alt+Tab;" | bash
